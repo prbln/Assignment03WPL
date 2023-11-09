@@ -1,0 +1,37 @@
+#header {
+  background-color: rgb(225, 225, 225);
+  padding: 20px;
+}
+#filterInput,
+#addGameButton {
+  margin-left: 30px;
+}
+input {
+  margin: 10, 20, 10, 0;
+}
+#gameDetailImg {
+  height: 450px;
+  width: 450px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#cardContainer {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 20px;
+}
+#newGameForm,
+#editGameForm {
+  margin-left: 30px;
+  width: 90%;
+}
+.form-control {
+  margin-bottom: 10px;
+}
+a {
+  color: #0066cc;
+}
