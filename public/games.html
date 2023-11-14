@@ -15,23 +15,15 @@
       <h6>Home</h6>
       <h1>Arcade</h1>
       <p>This is the list of available games</p>
-      <button id="addGameButton" class="btn btn-primary">Add new game</button>
+      <button id="addGameButton" class="btn btn-primary" onclick="addNewGame()">
+        Add new game
+      </button>
       <div id="filterInput">
         <input class="filterfield" type="text" placeholder="name" />
         <input class="filterfield" type="text" placeholder="filter" />
         <button id="searchButton" class="btn btn-info">Search</button>
       </div>
     </div>
-    <div id="cardContainer">
-      <div class="card" style="width: 18rem">
-        <img class="card-img-top" src="..." alt="Card image cap" />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-        </div>
-      </div>
-    </div>
+    <div id="cardContainer"></div>
   </body>
 </html>
